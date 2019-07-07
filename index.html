@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Krusty Krab Restaurant - Home Of The Krabby Patty</title>
+    <meta name="description" content="The Krusty Krab">
+    <meta name="author" content="Juliana Amaral">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/master.css">
+</head>
+
+<body>
+    <header class="menu">
+        <div class="inside">
+            <h1><img src="images/logo.jpg" alt="The Krusty Krab" /></h1>
+            <ul>
+                <li><a href="#" class="active">Menu</a></li>
+                <li><a href="#">Locations</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Discounts</a></li>
+                <li><a href="#" class="button">ORDER NOW</a></li>
+            </ul>
+        </div>
+    </header>
+    <section id="HeroImage" class="altBackground">
+        <div class="inside">
+            <h2>ARE YOU READY?</h2>
+            <p>Aye-aye captain.</p>
+        </div>
+    </section>
+    <section id="Click">
+        <div class="inside">
+            <h2>Quickly reorder one of your saved orders <i class="fas fa-heart"></i>.</h2>
+            <a href="#" class="button">1-CLICK REORDER</a>
+        </div>
+    </section>
+    <section id="map">
+        <div class="inside">
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=dublin&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+                </div>
+            </div>
+            <div class="locator">
+                <h2>FIND A RESTAURANT</h2>
+                <div class="box">
+                    <div class="container-1">
+                        <span class="icon"><i class="fas fa-location-arrow"></i></span>
+                        <input type="search" id="search" placeholder="Please enter your location" />
+                    </div>
+                    <p>Can't find your location? Click <a href="#" class="here">here</a>.</p>
+    </section>
+    </div>
+    </div>
+    <section id="News" class="altBackground">
+        <h2>DISCOVER THE LATEST</h2>
+        <div class="inside">
+            <figure class="new">
+                <img src="images/burgers.jpg" alt="New International Menu!" />
+                <figcaption class="name">Tastes Of The World</figcaption>
+                <p>Try our new international menu!</p>
+                <div class="button2"><a href="#" class="findmore">FIND OUT MORE</a></div>
+            </figure>
+            <figure class="new">
+                <img src="images/burgers2.jpg" alt="Calories" />
+                <figcaption class="name">How Many Calories?</figcaption>
+                <p>Check out our brand new Nutrition Calculator.</p>
+                <div class="button2"><a href="#" class="findmore">FIND OUT MORE</a></div>
+            </figure>
+            <figure class="new">
+                <img src="images/burgers3.jpg" alt="Milkshake" /></a>
+                <figcaption class="name">SummerBreeze®</figcaption>
+                <p>Enjoy the sun with this refreshing milkshake.</p>
+                <div class="button2"><a href="#" class="findmore">FIND OUT MORE</a></div>
+            </figure>
+        </div>
+    </section>
+    <section id="Other">
+        <div class="inside">
+                    <div class="newsletter">
+                        <h2>NEWSLETTER</h2>
+                        <p>Sign up to our newsletter and receive weekly updates on all the latest food and special offers.</p>
+<div class="container2">
+  <form action="action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="name" name="name" placeholder="Your name...">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">E-mail</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="email" name="email" placeholder="you@domain.com">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Country</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+		  <option value="brazil">Brazil</option>
+          <option value="canada">Canada</option>
+		  <option value="ireland">Ireland</option>
+          <option value="usa">USA</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Do you want to tell us something?</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+                    </div>
+                    <div class="reviews">
+                        <h2>REVIEWS</h2>
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <!-- Carousel indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                            </ol>
+                            <!-- Wrapper for carousel items -->
+                            <div class="carousel-inner">
+                                <div class="item carousel-item active">
+                                    <div class="img-box"><img src="images/menina.png" alt=""></div>
+                                    <p class="testimonial">The burgers and shakes are just amazing! Best in the city! I couldn’t recommend more!</p>
+                                    <p class="overview"><b>Carol Smith</b>Visited <a href="#">Krusty Krab City Center</a></p>
+                                    <div class="star-rating">
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="item carousel-item">
+                                    <div class="img-box"><img src="images/menino.png" alt=""></div>
+                                    <p class="testimonial">The burgers are really delicious! I would just say is a bit pricy for the size of the burger.</p>
+                                    <p class="overview"><b>Edward Holohan</b>Visited <a href="#">Krusty Krab Temple Bar</a></p>
+                                    <div class="star-rating">
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                            <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="item carousel-item">
+                                    <div class="img-box"><img src="images/menina2.png" alt=""></div>
+                                    <p class="testimonial">Perfect location, super friendly staff and delicious food. I would definitely recommend!</p>
+                                    <p class="overview"><b>Chiara Owen</b>Visited <a href="#">Krusty Krab Rathmines</a></p>
+                                    <div class="star-rating">
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Carousel controls -->
+                            <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+					</div>
+            </section>
+<footer>
+		<ul>
+		<li><img src="images/logo2.png" alt="The Krusty Krab" /></li></ul>
+        <ul>
+          <li>
+            <a href="#!">Cookie Policy</a>
+          </li>
+          <li>
+            <a href="#!">Terms and Conditions</a>
+          </li>
+          <li>
+            <a href="#!">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="#!">Copyright and Legal</a>
+          </li>
+        </ul>
+ <ul>
+          <li>
+            <a href="#!">Careers</a>
+          </li>
+          <li>
+            <a href="#!">About Us</a>
+          </li>
+          <li>
+            <a href="#!">Blog</a>
+          </li>
+          <li>
+            <a href="#!">Our Vision and Values</a>
+          </li>
+        </ul>
+		 <ul class="floatRight">Follow Us
+		  <li><a href="https://www.facebook.com/TheKrustyKrabOfficial/" target="_blank"">
+                    <span class="fa-stack"	 >
+                            <i class="far fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-facebook-f fa-stack-1x"></i>
+                        </span>
+                    </a>
+                </li>
+                <li><a href="https://www.instagram.com/spongebob/?hl=en" target="_blank">
+                        <span class="fa-stack" >
+                            <i class="far fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-instagram fa-stack-1x"></i>
+                        </span>
+                    </a>      
+                </li>
+                <li><a href="https://twitter.com/krustykrabtw?lang=en" target="_blank">
+                    <span class="fa-stack" >
+							<i class="fab fa-twitter fa-stack-1x"></i>
+                            <i class="far fa-circle fa-stack-2x"></i>
+                            
+                        </span>
+                    </a>
+                </li>
+            </ul>
+  <div class="copyright">© 1999-2019:
+    <a href="index.html" alt="The Krusty Krab">THE KRUSTY KRAB. ALL RIGHTS RESERVED.</a>
+  </div>
+
+</footer>
+
+
+</body>
+</html>
